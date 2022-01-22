@@ -6,6 +6,12 @@
   --active-color: #2196f3;
 }
 
+/* GLOBAL STYLES */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+}
+
 /* RESET STYLES*/
 .logo-link,
 .nav-link,
@@ -13,8 +19,6 @@
 .phone-link,
 .geo-link {
   text-decoration: none;
-  font-style: normal;
-  font-family: inherit;
 }
 .nav-list,
 .team-list,
@@ -29,7 +33,6 @@
 .filter-btn,
 .hero-btn {
   font-family: inherit;
-  color: inherit;
 }
 
 /* PATTERN */
@@ -44,11 +47,6 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
-/* GLOBAL STYLES */
-body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--main-text-color);
 }
 
 /* HEADER */
